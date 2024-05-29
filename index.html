@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href="_css/estilo.css" rel="stylesheet">
+</head>
+<style>
+    
+</style>
+<body>
+
+    <div id="container">
+        <div id="app">
+            <div id="topo">
+                <img src="_img/logo.png"><h1>Lista de tarefas</h1>
+            </div>
+            <div id="menu_geral">
+                <div id="adicionar">Adicionar</div>
+                <div id="tarefas">Tarefas<span id="info_tarefa"> (0)</span></div>
+            </div>
+            <div id="view_adicionar">
+                <div class="form">
+                    <label for="desc">Descrição</label>
+                    <input type="text" id="desc" placeholder="Digite a tarefa" class="input" maxlength="30">
+                </div>
+                <div class="data_hora">
+                    <div>
+                        <label for="data">Data</label>
+                        <input type="date" id="data" class="input">
+                    </div>
+                    <div>
+                        <label for="data">Hora</label>
+                        <input type="text" class="input" id="hora" placeholder="hh:mm">
+                    </div>
+                   
+                </div>
+                <div class="form">
+                    <label for="prio">Prioridade</label>
+                   <select class="input" id="prio">
+                    <option value="">Selecione...</option>
+                    <option>Baixa</option>
+                    <option>Média</option>
+                    <option>Alta</option>
+                    
+                   </select>
+                </div>
+                <div class="form" id="info_adicionar"></div>
+                <div class="form">
+                    <button type="button" id="btn_adicionar" class="botao botao-cinza">
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+            <div id="view_tarefas" class="display-none">
+                <div id="titulo_tarefas">
+                    <p>Tarefas cadastradas</p>
+                </div>
+               
+                    <table id="tabela_tarefas" class="tabela">
+                        <thead>
+                            <tr>
+                                <th>Descrição</th>
+                                <th>Data</th>
+                                <th>Hora</th>
+                                <th>Prioridade</th>
+                                <th>Remover</th>
+                            </tr>
+                           
+                        </thead>
+                        <tbody id="dados_tabela">
+                           
+                        </tbody>
+                    </table>
+                </div>
+
+              
+            </div>
+          
+            
+        </div>
+    </div>
+</body>
+<script src="_js/script.js">
+    
+</script>
+</html>

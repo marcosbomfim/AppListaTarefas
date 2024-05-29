@@ -1,0 +1,180 @@
+body, html{
+
+    height: 100%;
+}
+#topo{
+
+    background-color:#495057;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    border-top:1px solid #495057  ;
+    border-radius: 10px 10px 0px 0px;
+}   
+#topo img{
+
+    width: 150px;
+    height: 100px;
+}
+#container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#app{
+
+    width: 700px;
+    height: 700px;
+    border: 1px solid #495057;
+    border-radius: 10px;
+
+}
+
+
+
+#app #view_adicionar .form{
+
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+#app #view_adicionar .data_hora{
+
+    margin-top: 20px;
+    width: 450px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.data_hora div{
+
+    width: 45%;
+}
+
+.input {
+display: block;
+width: 90%;
+height: calc(1.6em + 0.75rem + 2px);
+padding: 0.375rem 0.75rem;
+font-size: 0.9rem;
+font-weight: 400;
+line-height: 1.6;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+margin-top: 5px;
+margin-bottom: 30px;
+margin-left: 5px;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.botao {
+display: inline-block;
+font-weight: 400;
+color: #212529;
+text-align: center;
+vertical-align: middle;
+-webkit-user-select: none;
+   -moz-user-select: none;
+        user-select: none;
+background-color: transparent;
+border: 1px solid transparent;
+padding: 0.375rem 0.75rem;
+font-size: 0.9rem;
+line-height: 1.6;
+border-radius: 0.25rem;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.botao-cinza {
+color: #fff;
+background-color: #495057;
+border-color: #495057;
+margin-top: 30px;
+width: 100%;
+cursor: pointer;
+}
+.botao-cinza:hover{
+
+background-color: white;
+color: black;
+}
+
+#app #menu_geral{
+
+display: flex;
+
+}
+
+#menu_geral{
+
+width: 100%;
+display: flex;
+justify-content: space-around;
+padding-top: 20px;
+}
+#menu_geral div{
+
+
+width: 40%;
+cursor: pointer;
+padding-bottom: 10px;
+}
+
+#menu_geral #adicionar{
+
+border-bottom: 3px solid #495057;
+} 
+
+
+#view_tarefas #titulo_tarefas{
+
+
+color: white;
+background-color: #495057;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 1px;
+margin-top: 10px;
+font-size: 15pt;
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* #tabela_tarefas{
+    vertical-align: top;
+    width: 100%;
+} */
+.tabela, th, td{
+ 
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(160 160 160);
+    width: 100%;
+    
+    
+}
+
+.display-flex{
+
+display: flex;
+justify-content: space-between;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+.display-none{
+
+display: none;
+
+}
+
